@@ -1,0 +1,180 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=1.55cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks,hypertexnames=false]{hyperref}
+\usepackage{xcolor}
+
+\setlength{\parindent}{0pt}
+\pagenumbering{gobble}
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=3pt}
+
+% ---- COLORS (subtle, ATS-safe) ----
+\definecolor{primary}{RGB}{20,20,20}
+\definecolor{accent}{RGB}{0,102,153}
+
+% ---- SECTION STYLE ----
+\titleformat{\section}
+  {\large\bfseries\color{primary}}
+  {}{0em}{}
+  [\titlerule]
+
+\begin{document}
+
+% ===== HEADER =====
+{\LARGE \textbf{Valerii Vysotskyi}} \\[4pt]
+\textcolor{accent}{Senior Java Engineer | Backend Systems | Distributed Architecture} \\[6pt]
+
+Brasov, Romania \\
+\href{mailto:valerii.vysotskyi@outlook.com}{valerii.vysotskyi@outlook.com} \\
++40-771-736-621, WhatsApp/Telegram \\
+\href{https://wysotsky.info}{wysotsky.info} \\
+\href{https://linkedin.com/in/valerii-vysotskyi}{linkedin.com/in/valerii-vysotskyi} \\
+\href{https://github.com/wwalery}{github.com/wwalery}
+
+\vspace{6pt}
+
+% ===== SUMMARY =====
+\section*{Summary}
+
+Senior Java Engineer with 25+ years of software engineering experience in enterprise backend systems, distributed applications, fintech integrations, government reporting platforms, and real-time data processing.
+
+Strong hands-on Java background across Java 1.5--21, Spring, Spring Boot, JPA, JDBC, REST APIs, SQL, messaging, CI/CD, and database performance tuning. Experienced in leading technical design while still contributing production code, reviews, debugging, and delivery.
+
+PhD in Management Information Systems (EQF Level 8, recognized in Romania).
+
+% ===== CORE SKILLS =====
+\section*{Core Skills}
+
+\begin{itemize}
+\item Java backend engineering, application architecture, and technical leadership
+\item Spring, Spring Boot, J2EE, REST/JSON services, SOAP integrations
+\item Distributed systems, messaging, event-driven processing, and high-load services
+\item Database design, SQL optimization, PostgreSQL, Oracle, MySQL, MSSQL, Firebird
+\item JPA, JDBC, QueryDSL, JOOQ, data access layer design
+\item CI/CD, automated testing, code reviews, debugging, and production support
+\item Requirements analysis, domain modelling, SDLC, Agile/Scrum delivery
+\item Payment systems, POS terminal software, fintech and banking integrations
+\end{itemize}
+
+\section*{Technologies}
+
+Java 1.5--21, Spring, Spring Boot, Quarkus, J2EE, REST, JSON, SOAP, PostgreSQL, Oracle, MySQL, MSSQL, Firebird, Kafka, RabbitMQ, Redis, AWS, Docker, Podman, JPA, JDBC, QueryDSL, JOOQ, JUnit, TestNG, JMeter, Gatling, Maven, Gradle, Ant, Git, Linux, Bash, JavaPOS, NDC, JNI, JNDI
+
+% ===== ACHIEVEMENTS =====
+\section*{Selected Achievements}
+
+\begin{itemize}
+\item Built and maintained Java-based enterprise systems across fintech, banking, automotive, government, and defense domains
+\item Architected real-time UAV threat intelligence platform with sub-second processing latency for high-throughput sensor data
+\item Reduced infrastructure costs by approx. 20\% through cloud and software optimization on AWS
+\item Reduced deployment time by approx. 40\% through CI/CD automation and release process improvements
+\item Designed telecom reporting platform that reduced manual data entry by approx. 80\% and improved accuracy by approx. 70\%
+\item Delivered integrations between banking systems, payment providers, POS terminals, and REST-based backend services
+\end{itemize}
+
+% ===== EXPERIENCE =====
+\section*{Experience}
+
+\textbf{Solution Architect / Senior Java Engineer} \hfill Nov 2024 -- Present \\
+\textit{Anti-UAV Defense System (Confidential)}
+
+\begin{itemize}
+\item Designed and implemented backend architecture for a real-time UAV threat intelligence platform
+\item Built scalable services for high-throughput sensor data and RF fingerprinting workflows
+\item Optimized data processing layers to remove latency bottlenecks in real-time detection flows
+\item Established CI/CD pipelines, coding standards, and technical delivery practices
+\item Worked across Java, JavaScript, PostgreSQL, hardware integration, and RF data processing
+\end{itemize}
+
+\textbf{Solution Architect / Senior Java Engineer} \hfill Feb 2017 -- Present \\
+\textit{Finik.PRO Ltd, Kyiv, Ukraine (Fintech / Banking)}
+
+\begin{itemize}
+\item Designed and delivered Java backend systems for fintech, internet banking, and financial platforms
+\item Implemented high-availability cloud solutions on AWS using API Gateway, RDS, DynamoDB, SQS, SNS, and related services
+\item Developed scalable backend services, integrations, monitoring, and deployment pipelines
+\item Led technical roadmap, coding standards, code reviews, and root-cause analysis across development teams
+\item Translated business and customer requirements into maintainable Java architecture and production delivery plans
+\end{itemize}
+
+\textbf{Solution Architect} \hfill Feb 2023 -- Jun 2025 \\
+\textit{USAID SOERA}
+
+\begin{itemize}
+\item Conducted IT audits and diagnostic assessments for complex government IT landscapes
+\item Defined target IT architecture and modernization roadmaps for large-scale digital initiatives
+\item Designed integration approaches, data flows, and implementation plans for legacy system modernization
+\item Advised stakeholders on feasibility, governance, and software delivery risks
+\end{itemize}
+
+\textbf{Software Architect / Senior Java Engineer} \hfill Sep 2016 -- Jul 2021 \\
+\textit{National Commission for Communications and Informatization, Kyiv, Ukraine}
+
+\begin{itemize}
+\item Designed and developed a reporting system for telecom and internet providers
+\item Implemented backend services in Java after MVP validation, with supporting Perl and Vue.js components
+\item Built architecture for large-scale reporting, data collection, validation, and analytics workflows
+\item Reduced manual data entry by approx. 80\% and improved report accuracy by approx. 70\%
+\end{itemize}
+
+\textbf{Software Architect / Senior Java Engineer} \hfill Jan 2014 -- Dec 2019 \\
+\textit{Banking Projects under NDA, Kyiv, Ukraine}
+
+\begin{itemize}
+\item Designed integrations between banks, payment systems, and external service providers
+\item Developed Java-based POS terminal software from JavaPOS device drivers and NDC protocol implementation to REST APIs and remote application control
+\item Built cross-system communication architecture for diverse banking hardware and software environments
+\item Authored technical guidelines and reusable development approaches for faster delivery
+\end{itemize}
+
+\textbf{Software Architect / Senior Software Engineer} \hfill Jan 2006 -- Dec 2022 \\
+\textit{IterCom Ltd}
+
+\begin{itemize}
+\item Designed and developed enterprise systems for automotive, financial, and accounting domains
+\item Built distributed applications for multi-branch organizations and heterogeneous deployment environments
+\item Created development guidelines, reusable frameworks, and architecture standards
+\item Worked on database design, backend development, integration, optimization, and documentation
+\end{itemize}
+
+\textbf{Software Developer} \hfill Jul 1993 -- Jan 2006 \\
+\textit{Bank Mriya}
+
+\begin{itemize}
+\item Developed banking systems across the full software development lifecycle
+\item Modernized and modularized legacy systems to improve maintainability, performance, and operating cost
+\item Participated in database development, release planning, testing, and production support
+\end{itemize}
+
+% ===== EDUCATION =====
+\section*{Education}
+
+\textbf{PhD in Management Information Systems} \\
+Thesis: Risk management in IT outsourcing \\
+International Open University, Interregional Academy of Personnel Management, Kyiv, Ukraine
+
+\textbf{MSc in Microelectronics and Semiconductor Devices} \\
+Kyiv Polytechnic Institute, Kyiv, Ukraine
+
+% ===== CERTIFICATIONS =====
+\section*{Certifications}
+
+AWS Cloud Solutions Architect, Coursera / Amazon \\
+IBM AI Engineering Professional Certificate \\
+TOGAF Foundation Enterprise Architect Certification Training \\
+Machine Learning, Coursera / Stanford University \\
+Web Application Architectures, Coursera / University of New Mexico \\
+Functional Programming Principles in Scala, Coursera / EPFL \\
+Algorithms: Design and Analysis, Coursera / Stanford University
+
+% ===== LANGUAGES =====
+\section*{Languages}
+
+Ukrainian (Native), English (B2), Romanian (A2)
+
+\end{document}
